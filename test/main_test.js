@@ -20,7 +20,7 @@ describe('game', function () {
         expect(e.length).toEqual(4);//不重复
         expect(parseInt(b).toString().length).toEqual(4);//判断类型是否为数字
     })
-    //对重复函数进行测试
+    //对生成随机数函数进行测试
     it("when Random num string,should print correct length and it's type is num and " +
         "no repetition", function () {
         let b = Random();
